@@ -10,14 +10,14 @@ mode con cols=60 lines=7
 
 do {
     Clear-Host
-    Write-Host "=========================================================" -ForegroundColor Cyan
+    Write-Host "==========================================================" -ForegroundColor Cyan
     Write-Host "              🚀 PS1.DLL | UNDERGROUND STORE             " -ForegroundColor Yellow
-    Write-Host "=========================================================" -ForegroundColor Cyan
-    Write-Host "1. ⚡ RUN (Execute All Tweaks)"
-    Write-Host "2. 🧹 CLEAR HISTORY (Clear History & Exit)"
-    Write-Host "=========================================================" -ForegroundColor Cyan
+    Write-Host "==========================================================" -ForegroundColor Cyan
+    Write-Host "1.  RUN 
+    Write-Host "2.  CLEAR HISTORY
+    Write-Host "==========================================================" -ForegroundColor Cyan
     
-    $choice = Read-Host "👉 Please enter your choice (1 or 2)"
+    $choice = Read-Host " Please enter your choice (1 or 2)"
     
     switch ($choice) {
         '1' {
@@ -106,7 +106,7 @@ do {
             Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingEnabled" /t REG_DWORD /d "0" /f
             Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingTool" /t REG_DWORD /d "0" /f
             
-            Write-Host "`n🎉 All commands executed successfully!" -ForegroundColor Green
+            Write-Host "`n All commands executed successfully!" -ForegroundColor Green
             cmd.exe /c pause
         }
         '2' {
@@ -121,7 +121,7 @@ do {
                 Remove-Item -Path $historyPath -Force -ErrorAction SilentlyContinue
             }
             
-            Write-Host "`n✅ History cleared successfully!" -ForegroundColor Green
+            Write-Host "`n History cleared successfully!" -ForegroundColor Green
             cmd.exe /c pause
             exit
         }'2' {
@@ -136,7 +136,7 @@ do {
                 Remove-Item -Path $historyPath -Force -ErrorAction SilentlyContinue
             }
             
-            Write-Host "`n✅ History cleared successfully!" -ForegroundColor Green
+            Write-Host "`n History cleared successfully!" -ForegroundColor Green
             cmd.exe /c pause
             exit
         }
