@@ -23,127 +23,88 @@ do {
         '1' {
             Write-Host "`nกำลังรันคำสั่งของคุณ..." -ForegroundColor Yellow
             
-            Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-18" /v "Version" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-18" /v "\Device\HarddiskVolume3\Windows\System32\csrss.exe" /t REG_BINARY /d "72b7169f6814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-18" /v "SequenceNumber" /t REG_DWORD /d "77" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-18" /v "\Device\HarddiskVolume3\Windows\System32\GameInputSvc.exe" /t REG_BINARY /d "80dd69a46114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-18" /v "\Device\HarddiskVolume3\Windows\System32\consent.exe" /t REG_BINARY /d "ebd628028314dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Version" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy" /t REG_BINARY /d "242d28ac6114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "SequenceNumber" /t REG_DWORD /d "241" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.Search_cw5n1h2txyewy" /t REG_BINARY /d "cb017eac6114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\explorer.exe" /t REG_BINARY /d "17b80ece7a14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe" /t REG_BINARY /d "f0997b0b6214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "MicrosoftWindows.Client.CBS_cw5n1h2txyewy" /t REG_BINARY /d "1a7b13b26114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\Taskmgr.exe" /t REG_BINARY /d "bed6a8da8214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\Google\Chrome\Application\chrome.exe" /t REG_BINARY /d "2fb3b56d7714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy" /t REG_BINARY /d "be53c998bd12dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\notepad.exe" /t REG_BINARY /d "48f134d98214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\dllhost.exe" /t REG_BINARY /d "26bade2a7814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" /t REG_BINARY /d "66d851b47a14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\OpenWith.exe" /t REG_BINARY /d "6c3768b0c412dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy" /t REG_BINARY /d "d98356d06114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\WinRAR\WinRAR.exe" /t REG_BINARY /d "ffafca7fe312dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\cmd.exe" /t REG_BINARY /d "6f338fd98214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\FiveM\FiveM.exe" /t REG_BINARY /d "169ffc4b7714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\Rockstar Games\Launcher\Launcher.exe" /t REG_BINARY /d "aca761527714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\Rockstar Games\Social Club\SocialClubHelper.exe" /t REG_BINARY /d "b3c095557714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\ApplicationFrameHost.exe" /t REG_BINARY /d "b122d19e6814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "windows.immersivecontrolpanel_cw5n1h2txyewy" /t REG_BINARY /d "753b15a06814dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.WindowsStore_8wekyb3d8bbwe" /t REG_BINARY /d "582e62d2e312dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj" /t REG_BINARY /d "7634208def11dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.LockApp_cw5n1h2txyewy" /t REG_BINARY /d "87fab5453c13dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA Overlay.exe" /t REG_BINARY /d "f44c0bf26114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.SecHealthUI_cw5n1h2txyewy" /t REG_BINARY /d "c3f4c85dbd12dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "28017CharlesMilette.TranslucentTB_v826wp6bftszj" /t REG_BINARY /d "a4d023b06114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Roaming\Spotify\Spotify.exe" /t REG_BINARY /d "6e5cc7bdf912dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Steam\steam.exe" /t REG_BINARY /d "a0112fc26114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.Photos_8wekyb3d8bbwe" /t REG_BINARY /d "b4dfbb4ec612dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_ROSLauncher" /t REG_BINARY /d "4c0801547714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\VoicemodV3\app\last\Voicemod.exe" /t REG_BINARY /d "dc9d6fb9d50edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\CredentialUIBroker.exe" /t REG_BINARY /d "db7975cc2511dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\rundll32.exe" /t REG_BINARY /d "f65a1e4c8214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" /t REG_BINARY /d "50db8be03c11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Programs\Antigravity\Antigravity.exe" /t REG_BINARY /d "383be7c2d012dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\conhost.exe" /t REG_BINARY /d "b14ba9da8214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe" /t REG_BINARY /d "3687be6e0612dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "PythonSoftwareFoundation.PythonManager_3847v3x7pw1km" /t REG_BINARY /d "5636f34a8114dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Programs\Python\Launcher\py.exe" /t REG_BINARY /d "1bf21472ee11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Python\pythoncore-3.14-64\python.exe" /t REG_BINARY /d "0c9af24a8114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Programs\Python\Python315\python.exe" /t REG_BINARY /d "f4dc6609ca12dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" /t REG_BINARY /d "f8bd6b5ae40edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\devenv.exe" /t REG_BINARY /d "4e75eec0e50edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_DumpServer" /t REG_BINARY /d "c3f5f84b7714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\PING.EXE" /t REG_BINARY /d "df12d1557a14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\msdt.exe" /t REG_BINARY /d "7972d8a60712dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\mmc.exe" /t REG_BINARY /d "3e5988d8b111dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Bobby\dist\Free.exe" /t REG_BINARY /d "9cadc7466914dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy" /t REG_BINARY /d "c2f2e485380ddd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\ez22fa\Unban fix.exe" /t REG_BINARY /d "d7aca8fa6114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\wscript.exe" /t REG_BINARY /d "489dd2416214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\Rockstar Games\Launcher\uninstall.exe" /t REG_BINARY /d "cebe19efc60edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_GTAProcess.exe" /t REG_BINARY /d "6dbd79c2bc12dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "microsoft.windowscommunicationsapps_8wekyb3d8bbwe" /t REG_BINARY /d "7ab69833c70edd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.OutlookForWindows_8wekyb3d8bbwe" /t REG_BINARY /d "a8718a2ac70edd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Discord\app-1.0.9245\Discord.exe" /t REG_BINARY /d "c521a3ba7b14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\บังธาม84.exe" /t REG_BINARY /d "f403cfb4e60edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\hb6z67\Emo Key\EmoQ.exe" /t REG_BINARY /d "2bb9177ee90edd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Roblox\Versions\version-36a2600cebf1487d\RobloxPlayerBeta.exe" /t REG_BINARY /d "cbc0f51e6214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\msinfo32.exe" /t REG_BINARY /d "7ba7b64b7310dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\msconfig.exe" /t REG_BINARY /d "17c32f1c6214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\BlueStacksUninstaller.exe" /t REG_BINARY /d "1c0320707310dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\nvidiaProfileInspector.exe" /t REG_BINARY /d "8a8ae6127f10dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\UI\Loader.exe" /t REG_BINARY /d "deb0452ee911dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\bin\wallpaperui.exe" /t REG_BINARY /d "7e9015b46114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\launcher.exe" /t REG_BINARY /d "0684d1c7f310dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\ChromeSetup.exe" /t REG_BINARY /d "db5135e5f310dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\SystemTemp\Google4200_552130993\bin\updater.exe" /t REG_BINARY /d "0a954de5f310dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\perfmon.exe" /t REG_BINARY /d "65ba9b083c11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\wallpaper64.exe" /t REG_BINARY /d "142e62af6114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\msiexec.exe" /t REG_BINARY /d "a0dec89a5311dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\NVIDIA Corporation\NVIDIA App\CEF\NVIDIA App.exe" /t REG_BINARY /d "4877045c2a11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\6viqea\never unban\Unban fix.exe" /t REG_BINARY /d "879cff22b211dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.ZuneVideo_8wekyb3d8bbwe" /t REG_BINARY /d "cdde5427cd11dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.WindowsCalculator_8wekyb3d8bbwe" /t REG_BINARY /d "31a1cd266214dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Zeus_X5_Lite_Software_V1.0_19120300.exe" /t REG_BINARY /d "3c1741934c11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\SysWOW64\msiexec.exe" /t REG_BINARY /d "fe03060dc712dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files (x86)\FANTECH X5 LITE  MACRO Pro Gaming Mouse\GamingMouse.exe" /t REG_BINARY /d "ab1554580812dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\SndVol.exe" /t REG_BINARY /d "38a4d941d012dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\FiveM_Setup.exe" /t REG_BINARY /d "4d480b775411dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\FiveM.exe" /t REG_BINARY /d "b575d2957814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Program Files\obs-studio\bin\64bit\obs64.exe" /t REG_BINARY /d "780afaf5eb11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\are u seriously\are u seriously\2sY78czO0TOxW.exe" /t REG_BINARY /d "9079e4337414dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\2sY78czO0TOxW.exe" /t REG_BINARY /d "42b9f8427414dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\urtart\Programs\qppJlDplkw.exe" /t REG_BINARY /d "511b9c33da11dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" /t REG_BINARY /d "cd2c68137214dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "Microsoft.ZuneMusic_8wekyb3d8bbwe" /t REG_BINARY /d "9bc7eb4f0312dd0100000000000000000100000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\OptionalFeatures.exe" /t REG_BINARY /d "b1f3acfe0512dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Ps1ToExePortable.exe" /t REG_BINARY /d "7da6c7890712dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Ps1ToExePortable-master\Ps1ToExePortable-master\Ps1ToExePortable\Ps1ToExePortable.exe" /t REG_BINARY /d "204744bf0712dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Ps1ToExePortable_3.2_Dev_Test_1.paf.exe" /t REG_BINARY /d "df38fcd3ef12dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Ps1ToExePortable\Ps1ToExePortable.exe" /t REG_BINARY /d "5b07d08af912dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Ps1ToExePortable\App\Ps1ToExe\Ps1_To_Exe_(x64).exe" /t REG_BINARY /d "a4dfc68af912dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Important\Important.exe" /t REG_BINARY /d "b548a9f87714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" /t REG_BINARY /d "acbd8ae6ef12dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b3258_GTAProcess.exe" /t REG_BINARY /d "c7cdd8577714dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\osk.exe" /t REG_BINARY /d "973b3f25d112dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\ReshadeSetup.exe" /t REG_BINARY /d "0ddf29d5d112dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Programs\Microsoft VS Code\Code.exe" /t REG_BINARY /d "32039f567814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\hb6z67\dist\Free.exe" /t REG_BINARY /d "f2de68a5c912dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\taskhostw.exe" /t REG_BINARY /d "94a85c5f6e14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\System32\SystemPropertiesPerformance.exe" /t REG_BINARY /d "29c269c6e312dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Roblox\Versions\version-eb158392d1c84e6a\RobloxPlayerBeta.exe" /t REG_BINARY /d "872e12c97a14dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Monarch\dist\main.exe" /t REG_BINARY /d "d1b3536a8214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\is-9S21M.tmp\CodeSetup-stable-5264f2156cbcd7aea5fd004d29eaa10209155d66.tmp" /t REG_BINARY /d "e98a34577814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\AppData\Local\Temp\IXP000.TMP\dxwsetup.exe" /t REG_BINARY /d "280788997814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\Important\GamingSetupPro.exe" /t REG_BINARY /d "a3b5ae9d7814dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Users\attap\Downloads\BASIC\BASIC\RegConvert.exe" /t REG_BINARY /d "60bfa3608214dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-21-2014850454-2196462663-693163367-1001" /v "\Device\HarddiskVolume3\Windows\regedit.exe" /t REG_BINARY /d "cc0737028314dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-90-0-1" /v "Version" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-90-0-1" /v "\Device\HarddiskVolume3\Windows\System32\dwm.exe" /t REG_BINARY /d "744eabac6114dd0100000000000000000000000002000000" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-90-0-1" /v "SequenceNumber" /t REG_DWORD /d "9" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-90-0-2" /v "Version" /t REG_DWORD /d "1" /f
-Reg.exe add "HKLM\SYSTEM\ControlSet001\Services\bam\State\UserSettings\S-1-5-90-0-2" /v "SequenceNumber" /t REG_DWORD /d "3" /f
+            Reg.exe add "HKCU\Control Panel\Mouse" /v "ActiveWindowTracking" /t REG_DWORD /d "4096" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Beep" /t REG_SZ /d "No" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickHeight" /t REG_SZ /d "2" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickSpeed" /t REG_SZ /d "450" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickWidth" /t REG_SZ /d "3" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "ExtendedSounds" /t REG_SZ /d "No" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseHoverHeight" /t REG_SZ /d "3" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseHoverTime" /t REG_SZ /d "30" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseHoverWidth" /t REG_SZ /d "4" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSensitivity" /t REG_SZ /d "10" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSpeed" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold1" /t REG_SZ /d "6" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold2" /t REG_SZ /d "10" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseTrails" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "SnapToDefaultButton" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "SwapMouseButtons" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Mouse Smooth" /t REG_SZ /d "1100" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Speed Fast" /t REG_SZ /d "1000" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "FlashClick" /t REG_SZ /d "1000" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "FlashClick2" /t REG_SZ /d "700" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Delay" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Delay2" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "SmoothMouseXCurve" /t REG_BINARY /d "00310000000000000090300000000000000099300000000000000000301900000000009200150000" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "SmoothMouseYCurve" /t REG_BINARY /d "0000000000000000000038000000000000007000000000000000a800000000000000e00000000000" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /ve /t REG_SZ /d "" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TcpWindowSize" /t REG_DWORD /d "372300" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TCPDelAckTicks" /t REG_DWORD /d "3" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Tcp1323Opts" /t REG_DWORD /d "4" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TcpMaxDataRetransmissions" /t REG_DWORD /d "4" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "SackOpts" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DefaultTTL" /t REG_DWORD /d "32767" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Beep2" /t REG_SZ /d "No" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "EnablePMTUDiscovery" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "EnablePMTUBHDetect" /t REG_DWORD /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickHeight2" /t REG_SZ /d "0.5" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickSpeed2" /t REG_SZ /d "0,47" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickWidth2" /t REG_SZ /d "0.5" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "ExtendedSounds2" /t REG_SZ /d "No" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSensibility2" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSpeed2" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold12" /t REG_SZ /d "3" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold22" /t REG_SZ /d "4" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "Beep3" /t REG_SZ /d "No" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSensitivity2" /t REG_SZ /d "0.01" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseTrails1" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseTrails2" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSensitivity3" /t REG_SZ /d "0.01" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickSpeed3" /t REG_SZ /d "0.10" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TcpNoDelay2" /t REG_DWORD /d "5247" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DoubleClickDelay" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "LeftClick" /t REG_SZ /d "3" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DelayLeftClick" /t REG_DWORD /d "30" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetMouseDragOutWidth" /t REG_SZ /d "20" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetMouseSideMoveWidth" /t REG_SZ /d "50" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetMouseWidth" /t REG_SZ /d "1" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetPenDragOutWidth" /t REG_SZ /d "30" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetPenSideMoveWidth" /t REG_SZ /d "50" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DockTargetPenWidth" /t REG_SZ /d "30" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TcpAckFrequency" /t REG_DWORD /d "12" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "TcpNoDelay1" /t REG_BINARY /d "7f14000000000000" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "DelayRigthClick" /t REG_BINARY /d "" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseAcceleration" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "NetworkThrottlingIndex" /t REG_DWORD /d "4294967295" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" /v "SystemResponsiveness" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Affinity" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Background Only" /t REG_SZ /d "False" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Clock Rate" /t REG_DWORD /d "10000" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "GPU Priority" /t REG_DWORD /d "8" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Priority" /t REG_DWORD /d "6" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "Scheduling Category" /t REG_SZ /d "High" /f
+Reg.exe add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" /v "SFIO Priority" /t REG_SZ /d "High" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseSpeed" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold1" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Mouse" /v "MouseThreshold2" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\System\GameConfigStore" /v "GameDVR_Enabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows\GameDVR" /v "AllowGameDVR" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "InitialKeyboardIndicators" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardDelay" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "KeyboardSpeed" /t REG_SZ /d "31" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "lnitialKeyboardlndicators" /t REG_SZ /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingEnabled" /t REG_DWORD /d "0" /f
+Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingTool" /t REG_DWORD /d "0" /f
             
             Write-Host "`n🎉 รันคำสั่งทั้งหมดเสร็จสิ้น!" -ForegroundColor Green
             cmd.exe /c pause
