@@ -138,7 +138,6 @@ do {
             
             Write-Host "`n History cleared successfully!" -ForegroundColor Green
             cmd.exe /c pause
-            exit
         }
     }
 } while ($choice -ne '2')
