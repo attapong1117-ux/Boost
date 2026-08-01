@@ -105,6 +105,22 @@ do {
             Reg.exe add "HKCU\Control Panel\Keyboard" /v "lnitialKeyboardlndicators" /t REG_SZ /d "0" /f
             Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingEnabled" /t REG_DWORD /d "0" /f
             Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingTool" /t REG_DWORD /d "0" /f
+            ipconfig /flushdns
+            netsh winsock reset
+            netsh int ip reset
+            ipconfig /release
+            ipconfig /renew
+            netsh advfirewall reset
+            arp -d *
+            nbtstat -R
+            nbtstat -RRcertutil -urlcache * delete
+            netsh int tcp set global rss=enabled
+            netsh int tcp set global dca=enabled
+            netsh int tcp set global netdma=enabled
+            netsh int tcp set global autotuninglevel=normal
+            netsh int tcp set global ecncapability=disabled
+            netsh int tcp set supplemental internet congestionprovider=ctcp
+            netsh int tcp show global
             
             Write-Host "`n All commands executed successfully!" -ForegroundColor Green
             cmd.exe /c pause
