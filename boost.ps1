@@ -11,7 +11,7 @@ mode con cols=60 lines=7
 do {
     Clear-Host
     Write-Host "=========================================================" -ForegroundColor Cyan
-    Write-Host "                 🚀 CUSTOM TWEAKS MENU                   " -ForegroundColor Yellow
+    Write-Host "                        PS1.DLL                          " -ForegroundColor Yellow
     Write-Host "=========================================================" -ForegroundColor Cyan
     Write-Host "1. ⚡ รันคำสั่งทั้งหมด"
     Write-Host "2. ❌ ออกจากโปรแกรม (Exit)"
