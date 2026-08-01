@@ -11,10 +11,10 @@ mode con cols=60 lines=7
 do {
     Clear-Host
     Write-Host "=========================================================" -ForegroundColor Cyan
-    Write-Host "                        PS1.DLL                          " -ForegroundColor Yellow
+    Write-Host "              PS1.DLL  | UNDERGROUNDD  STORE             " -ForegroundColor Yellow
     Write-Host "=========================================================" -ForegroundColor Cyan
-    Write-Host "1. ⚡ รันคำสั่งทั้งหมด"
-    Write-Host "2. ❌ ออกจากโปรแกรม (Exit)"
+    Write-Host "1. RUN
+    Write-Host "2. 
     Write-Host "=========================================================" -ForegroundColor Cyan
     
     $choice = Read-Host "👉 พิมพ์ตัวเลขเพื่อเลือก (1 หรือ 2)"
@@ -110,11 +110,20 @@ Reg.exe add "HKCU\Control Panel\Keyboard" /v "PrintScreenKeyForSnippingTool" /t 
             cmd.exe /c pause
         }
         '2' {
-            Write-Host "`nออกจากโปรแกรม ขอให้สนุกครับ!" -ForegroundColor Cyan
-        }
-        default {
-            Write-Host "`n❌ กรุณาพิมพ์ 1 หรือ 2 เท่านั้น" -ForegroundColor Red
+            Write-Host "`nกำลังลบไฟล์ประวัติ PowerShell..." -ForegroundColor Yellow
+            
+            # 1. ลบประวัติในหน้าต่างที่กำลังรันอยู่ปัจจุบัน
+            Clear-History
+            
+            # 2. ค้นหาตำแหน่งและลบไฟล์ที่ Windows แอบเซฟประวัติเอาไว้ (PSReadLine)
+            $historyPath = (Get-PSReadLineOption).HistorySavePath
+            if ($historyPath -and (Test-Path $historyPath)) {
+                Remove-Item -Path $historyPath -Force -ErrorAction SilentlyContinue
+                Write-Host "✅ ลบไฟล์ประวัติเสร็จสิ้น! (ประวัติทั้งหมดถูกล้างแล้ว)" -ForegroundColor Green
+            } else {
+                Write-Host "✅ ไม่มีไฟล์ประวัติให้ลบ (เครื่องคุณสะอาดอยู่แล้ว)" -ForegroundColor Green
+            }
+            
             cmd.exe /c pause
         }
-    }
 } while ($choice -ne '2')
