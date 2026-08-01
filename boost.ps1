@@ -10,12 +10,12 @@ mode con cols=60 lines=7
 
 do {
     Clear-Host
-    Write-Host "==========================================================" -ForegroundColor Cyan
-    Write-Host "                 PS1.DLL | UNDERGROUND STORE              " -ForegroundColor Yellow
-    Write-Host "==========================================================" -ForegroundColor Cyan
-    Write-Host "                        1. RUN "
-    Write-Host "                   2. CLEAR HISTORY" 
-    Write-Host "==========================================================" -ForegroundColor Cyan
+    Write-Host "============================================================" -ForegroundColor Cyan
+    Write-Host "                  PS1.DLL | UNDERGROUND STORE               " -ForegroundColor Yellow
+    Write-Host "============================================================" -ForegroundColor Cyan
+    Write-Host "                          1. RUN "
+    Write-Host "                     2. CLEAR HISTORY" 
+    Write-Host "============================================================" -ForegroundColor Cyan
     
     $choice = Read-Host " Please enter your choice (1 or 2)"
     
